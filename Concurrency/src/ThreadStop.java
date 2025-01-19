@@ -1,5 +1,5 @@
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
+//Note that the java Stop() method is deprecated and is not preferred as there's no way to know at what point the
+//thread will be stopped.
 public class ThreadStop {
     public static void main(String[] args) {
         StoppableRunnable curr = new StoppableRunnable();
